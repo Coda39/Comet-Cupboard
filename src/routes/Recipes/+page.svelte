@@ -25,16 +25,29 @@
             <div class="space-y-2">
                 <h1 class="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl/none">Recipe Collection</h1>
                 <p class="mx-auto max-w-[700px] text-zinc-500 md:text-lg dark:text-zinc-400">Explore the best recipes from around the world</p>
-                <img class="mx-auto" src="/down-arrow.png">
+                <img class="mx-auto" src="/down-arrow.png" alt="down arrow">
             </div>
         </div>
     </div>
 </section>
 
-<div class="mx-10 grid grid-cols-5">
-    <div class="col-span-1 pr-8">
-        <h1>hello</h1>
+<div class="mx-10 grid grid-cols-5 grid gap-8">
+    <div class="col-span-1 shadow-lg">
         <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
+        <ul class="menu menu-sm bg-base-200 w-full rounded-box">
+            <li>
+                <a><img class="w-10 h-10" src="/book-icon.png" alt="book">All Recipes</a>
+            </li>
+            <li>
+                <a><img class="w-10 h-10" src="/heart-icon.png" alt="book">Favorites</a>
+            </li>
+            <li>
+                <a><img class="w-10 h-10" src="/category-icon.png" alt="book">Ingredients</a>
+            </li>
+            <li>
+                <a><img  src="/stopwatch-icon.png" alt="book">Duration</a>
+            </li>
+        </ul>
     </div>
     <div class="col-span-4 grid gap-4 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1">
         {#each filteredRecipe as pokeman}
