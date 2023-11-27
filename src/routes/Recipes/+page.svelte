@@ -1,9 +1,5 @@
-<!--
-// v0 by Vercel.
-// https://v0.dev/t/spsdm12oIQN
--->
 <script>
-    import {pokemon} from "../../api/recipesAPI";
+    import {pokemon} from "../stores/pokestore";
     import PokemanCard from "../components/pokemanCard.svelte";
     
     let searchRecipe = "";
