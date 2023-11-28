@@ -26,9 +26,8 @@
         </div>
     </div>
 </section>
-
 <div class="mx-10 grid grid-cols-5 grid gap-8">
-    <div class="col-span-1 shadow-lg">
+    <div class="col-span-1 shadow-lg hidden lg:block">
         <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
         <ul class="menu menu-sm bg-base-200 w-full rounded-box">
             <li>
@@ -45,6 +44,25 @@
             </li>
         </ul>
     </div>
+    <div class="lg:hidden">
+        <div class="col-span-1 shadow-lg">
+            <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200 lg:placeholder-opacity-75 md:placeholder-opacity-0 sm:placeholder-opacity-0" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
+            <ul class="menu menu-sm bg-base-200 w-full rounded-box ">
+                <li>
+                    <a><img class="w-10 h-10" src="/book-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img class="w-10 h-10" src="/heart-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img class="w-10 h-10" src="/category-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img  src="/stopwatch-icon.png" alt="book"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="col-span-4 grid gap-4 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1">
         {#each filteredRecipe as pokeman}
             <PokemanCard pokeman={pokeman}/>
@@ -58,7 +76,7 @@
             <img alt="Recipe Image" class="aspect-square object-cover border border-zinc-200 w-full rounded-lg overflow-hidden dark:border-zinc-800" height="600" src="/placeholder.svg" width="600">
             <div class="space-y-2">
                 <h2 class="text-lg font-semibold text-center">Recipe Title</h2>
-                <p class="text-sm text-zinc-500 dark:text-zinc-400">Brief description of the recipe goes here</p>
+                <p class="text-sm text-zinc-500 dark:text-zinc-400">Brief description of the recipe goes here checking</p>
                 <div class="flex justify-center space-x-2 flex-wrap">
                     <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">Button 1</button>
                     <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">Button 2</button>

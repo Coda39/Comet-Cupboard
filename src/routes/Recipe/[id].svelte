@@ -1,7 +1,7 @@
 <script context="module">
     export async function load({page}){
         const id = page.params.id;
-        const url = `https://pokeapi.co/api/v2/Recipe/${id}`;
+        const url = `/Recipe/${id}`;
         const res = await fetch(url);
         const pokeman = await res.json();
         return {props: {pokeman}};
