@@ -46,8 +46,8 @@
     </div>
     <div class="lg:hidden">
         <div class="col-span-1 shadow-lg">
-            <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200 lg:placeholder-opacity-75 md:placeholder-opacity-0 sm:placeholder-opacity-0" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
-            <ul class="menu menu-sm bg-base-200 w-full rounded-box ">
+            <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200 lg:placeholder-opacity-75 sm:placeholder-hidden" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
+            <ul class="menu menu-sm bg-base-200 w-full rounded-box flex items-center justify-center">
                 <li>
                     <a><img class="w-10 h-10" src="/book-icon.png" alt="book"></a>
                 </li>
@@ -58,7 +58,7 @@
                     <a><img class="w-10 h-10" src="/category-icon.png" alt="book"></a>
                 </li>
                 <li>
-                    <a><img  src="/stopwatch-icon.png" alt="book"></a>
+                    <a><img class="w-10 h-10" src="/stopwatch-icon.png" alt="book"></a>
                 </li>
             </ul>
         </div>

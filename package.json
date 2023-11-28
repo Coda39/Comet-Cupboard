@@ -27,7 +27,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"node": "^21.2.0",
 		"svelte-scrollto-element": "^0.7.0"
 	}
 }
