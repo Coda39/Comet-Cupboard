@@ -26,9 +26,8 @@
         </div>
     </div>
 </section>
-
 <div class="mx-10 grid grid-cols-5 grid gap-8">
-    <div class="col-span-1 shadow-lg">
+    <div class="col-span-1 shadow-lg hidden lg:block">
         <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
         <ul class="menu menu-sm bg-base-200 w-full rounded-box">
             <li>
@@ -44,6 +43,25 @@
                 <a><img  src="/stopwatch-icon.png" alt="book">Duration</a>
             </li>
         </ul>
+    </div>
+    <div class="lg:hidden">
+        <div class="col-span-1 shadow-lg">
+            <input class="w-full rounded-md text-lg p-2 border-2 border-gray-200 lg:placeholder-opacity-75 md:placeholder-opacity-0 sm:placeholder-opacity-0" type="text" bind:value={searchRecipe} placeholder="Search Recipe">
+            <ul class="menu menu-sm bg-base-200 w-full rounded-box ">
+                <li>
+                    <a><img class="w-10 h-10" src="/book-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img class="w-10 h-10" src="/heart-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img class="w-10 h-10" src="/category-icon.png" alt="book"></a>
+                </li>
+                <li>
+                    <a><img  src="/stopwatch-icon.png" alt="book"></a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="col-span-4 grid gap-4 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1">
         {#each filteredRecipe as pokeman}
