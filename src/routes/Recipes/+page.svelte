@@ -58,7 +58,7 @@
                     <a><img class="w-10 h-10" src="/category-icon.png" alt="book"></a>
                 </li>
                 <li>
-                    <a><img  src="/stopwatch-icon.png" alt="book"></a>
+                    <a><img class="w-10 h-10" src="/stopwatch-icon.png" alt="book"></a>
                 </li>
             </ul>
         </div>

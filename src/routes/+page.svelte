@@ -1,4 +1,4 @@
-<script >
+<script>
 	  import { animateScroll } from 'svelte-scrollto-element';
 </script>
 
