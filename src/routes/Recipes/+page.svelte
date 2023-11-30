@@ -76,7 +76,7 @@
             <img alt="Recipe Image" class="aspect-square object-cover border border-zinc-200 w-full rounded-lg overflow-hidden dark:border-zinc-800" height="600" src="/placeholder.svg" width="600">
             <div class="space-y-2">
                 <h2 class="text-lg font-semibold text-center">Recipe Title</h2>
-                <p class="text-sm text-zinc-500 dark:text-zinc-400">Brief description of the recipe goes here</p>
+                <p class="text-sm text-zinc-500 dark:text-zinc-400">Brief description of the recipe goes here checking</p>
                 <div class="flex justify-center space-x-2 flex-wrap">
                     <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">Button 1</button>
                     <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">Button 2</button>
