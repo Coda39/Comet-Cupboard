@@ -18,35 +18,73 @@
 </div>
 
 <main id="main-section">
-	<section class="min-h-screen">
-		<div class="stats shadow">
-		  <div class="stat">
-			<div class="stat-figure text-secondary">
-			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+<section class="w-full py-12 md:py-24 lg:py-32 grid items-center justify-center px-8 ">
+  <div class="container grid grid-cols-1 lg:grid-cols-3 px-4 md:px-6">
+    <div class="lg:col-span-2 space-y-6 ">
+      <h1 class="text-4xl font-bold tracking-tighter">Mission</h1>
+      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-light">
+		The Comet Cupboard is a free food pantry initiative at UT Dallas dedicated to helping students in need.
+		Its primary mission is to provide necessary food and personal care items to members of the UT Dallas community while acting as a service-learning component prioritizing community over individualism. 
+      </p>
+      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-thin">
+		Located in room MC 1.608, in the Eugene McDermott Library basement.
+      </p>
+      <div class="grid grid-cols-3 gap-4 text-left">
+        <div class="flex flex-col items-start">
+          <h3 class="text-2xl font-bold">5000+</h3>
+          <p>Volunteers</p>
+        </div>
+        <div class="flex flex-col items-start">
+          <h3 class="text-2xl font-bold">100+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="flex flex-col items-start">
+          <h3 class="text-2xl font-bold">1M+</h3>
+          <p>Lives Impacted</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-16 items center">
+	<div>
+		<div class="card w-52 bg-base-200 h-1/2 shadow-xl ">
+		  <div class="card-body">
+			<h2 class="card-title text-center">Over 12,000 students served</h2>
+			<div class="card-actions justify-center">
+				<img alt = "logo" src = "/heart_hands.png"> 
 			</div>
-			<div class="stat-title">Downloads</div>
-			<div class="stat-value">31K</div>
-			<div class="stat-desc">Jan 1st - Feb 1st</div>
 		  </div>
-		  
-		  <div class="stat">
-			<div class="stat-figure text-secondary">
-			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
-			</div>
-			<div class="stat-title">New Users</div>
-			<div class="stat-value">4,200</div>
-			<div class="stat-desc">↗︎ 400 (22%)</div>
-		  </div>
-		  
-		  <div class="stat">
-			<div class="stat-figure text-secondary">
-			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
-			</div>
-			<div class="stat-title">New Registers</div>
-			<div class="stat-value">1,200</div>
-			<div class="stat-desc">↘︎ 90 (14%)</div>
-		  </div>
-		  
 		</div>
-	</section>
+	</div>
+	<div>
+		<div class="card w-52 bg-base-200 shadow-xl h-1/2">
+		  <div class="card-body">
+			<h2 class="card-title text-center">Over 300/year </h2>
+			<div class="card-actions justify-center">
+				<img alt = "logo" src = "/giving.png"> 
+			</div>
+		  </div>
+		</div>
+    </div>
+</div>
+
+</section>
+
+<section class="w-full py-12 md:py-24 lg:py-32">
+		<div class="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+			<div class="space-y-2">
+				<h2 class="text-3xl font-bold tracking-tighter">
+						Get Involved
+				</h2>
+			<p class="max-w-[600px] text-zinc-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
+				Join our efforts and help us make a difference. Every hand counts in creating a better world.
+			</p>
+		</div>
+	<div class="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">
+		<a class="inline-flex h-10 items-center justify-center rounded-md bg-zinc-900 px-8 text-sm font-medium text-zinc-50 shadow transition-colors hover:bg-zinc-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 dark:focus-visible:ring-zinc-300" href="/about">
+			Join Now
+		</a>
+	</div>
+	</div>
+</section>
+
 </main>
