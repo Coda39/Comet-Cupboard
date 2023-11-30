@@ -8,7 +8,7 @@
 	  <div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
 		  <h1 class="mb-5 text-5xl font-bold">Comet Cupboard</h1>
-		  <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+		  <p class="mb-5">Erupting Flavors with Comet Magic</p>
 		<a  href = "#main-section" on:click={() => animateScroll.scrollTo({element: '#main-section', duration:750})}>
 		  <button class="btn btn-primary">Learn More</button>
 		</a>
@@ -46,7 +46,7 @@
     </div>
     <div class="grid grid-cols-2 gap-16 items center">
 	<div>
-		<div class="card w-52 bg-base-200 h-1/2 shadow-xl ">
+		<div class="card w-52 bg-base-200 h-1/2 shadow-xl md:h-48">
 		  <div class="card-body">
 			<h2 class="card-title text-center">Over 12,000 students served</h2>
 			<div class="card-actions justify-center">
@@ -56,9 +56,9 @@
 		</div>
 	</div>
 	<div>
-		<div class="card w-52 bg-base-200 shadow-xl h-1/2">
+		<div class="card w-52 bg-base-200 shadow-xl h-1/2 md:h-48">
 		  <div class="card-body">
-			<h2 class="card-title text-center">Over 300/year </h2>
+			<h2 class="card-title text-center">Over 300 volunteers/year</h2>
 			<div class="card-actions justify-center">
 				<img alt = "logo" src = "/giving.png"> 
 			</div>
