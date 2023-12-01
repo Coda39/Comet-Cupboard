@@ -34,13 +34,13 @@
                 <a><img class="w-10 h-10" src="/book-icon.png" alt="book">All Recipes</a>
             </li>
             <li>
-                <a><img class="w-10 h-10" src="/heart-icon.png" alt="book">Favorites</a>
+                <a><img class="w-10 h-10" src="/heart-icon.png" alt="heart">Favorites</a>
             </li>
             <li>
-                <a><img class="w-10 h-10" src="/category-icon.png" alt="book">Ingredients</a>
+                <a><img class="w-10 h-10" src="/category-icon.png" alt="category">Ingredients</a>
             </li>
             <li>
-                <a><img  src="/stopwatch-icon.png" alt="book">Duration</a>
+                <a><img src="/stopwatch-icon.png" alt="book">Duration</a>
             </li>
         </ul>
     </div>
