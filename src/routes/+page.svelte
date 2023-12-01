@@ -82,7 +82,11 @@
 
 </section>
 
-<div class="divider lg:mb-24"></div> 
+<div class="flex w-full">
+  <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">content</div>
+  <div class="divider divider-horizontal">OR</div>
+  <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">content</div>
+</div>
 
 <section>
 	<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
