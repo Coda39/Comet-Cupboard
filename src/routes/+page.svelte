@@ -12,7 +12,7 @@
 </script>
 
 <div class ="mb-12">
-	<div class="hero min-h-screen" style="background-image: url(https://media0.giphy.com/media/QWQ3lmJXI9QylAgrWp/giphy.gif?cid=ecf05e47ikctz6z6tj1omcs5xgtn2ys7979ot0zu1td8tto4&ep=v1_gifs_search&rid=giphy.gif&ct=g);">
+	<div class="hero min-h-screen" style="background-image: url(https://d39wpajicgrug4.cloudfront.net/v3m8pj%2Fpreview%2F54666886%2Fmain_large.gif?response-content-disposition=inline%3Bfilename%3D%22main_large.gif%22%3B&response-content-type=image%2Fgif&Expires=1701465394&Signature=V4Td4yd8D0TUcPmpSD2KdPKPXz3NLROFMmE81OHRMfkcvflDg6HsrF~U7Wsv0CHPCM~VsufVGyKP94O1AQF-jT8Ur-qAi0ct4dbn5OQgTYgggWbrSbq9ZIrg7k2N43-BgVEaRE7gQWaAdB6h~83eUrZLsJgx-u96aiVl3vG~8hChFrG6AaDhapz1Xhdpi~uacftTgtQohfByvwgWOSfYmNjBw-1Xs7VAWa2lF~vLPUNSUKKcxxqMWFJYuqOogdYmLqL2Ey7QZkeWsUbr~2~d2zeYoEfoe-hCec6VnPqyRmGIgR9fFHbr0gNESHqJ~rO~wwY2KbFWQXf8pGZk2fiu-Q__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ);">
 	  <div class="hero-overlay bg-opacity-60"></div>
 	  <div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md">
