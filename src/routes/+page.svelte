@@ -78,11 +78,9 @@
 		  </div>
 		</div>
     </div>
-</div>
-
+  </div>
 </section>
-
- <section>
+<section class="border-t border-t-black">
    <div class="items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
      <div class="text-left">
        <div class="items-center mx-auto lg:inline-flex">
@@ -139,7 +137,7 @@
        </div>
      </div>
    </div>
- </section>
+</section>
 
 <section>
 	<div class="hero py-12 ">
