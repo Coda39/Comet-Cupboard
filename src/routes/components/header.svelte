@@ -20,6 +20,6 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a href = "/Donate" class="btn bg-secondary">Donate</a>
+    <a href = "https://utdallas.qualtrics.com/jfe/form/SV_1TVYN4RQk1cUReK" class="btn bg-secondary">Donate</a>
   </div>
 </div>
