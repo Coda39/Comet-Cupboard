@@ -5,7 +5,8 @@
 <footer class="footer p-10 bg-neutral text-neutral-content">
   <aside>
     <img src="/comet-cupboard-logo.jpg" width="100" height="100" viewBox="0 0 24 24" class="fill-current rounded-full" alt="">
-    <p class="capitalize">Comet Cupboard<br/>Erupting flavors with comet magic</p>
+    <p class="capitalize">Comet Cupboard<br/>Erupting flavors with comet magic<br/></p>
+    <p>Email: cupboard@utdallas.edu<br/>Comet Cupboard Telephone: 972-883-6613 </p>
   </aside> 
   <nav>
     <header class="footer-title">Social</header> 

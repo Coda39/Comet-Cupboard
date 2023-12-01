@@ -22,26 +22,30 @@
   <div class="container grid grid-cols-1 lg:grid-cols-3 px-4 md:px-6">
     <div class="lg:col-span-2 space-y-6 ">
       <h1 class="text-4xl font-bold tracking-tighter">Mission</h1>
-      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-light">
+      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-light opacity-70">
 		The Comet Cupboard is a free food pantry initiative at UT Dallas dedicated to helping students in need.
 		Its primary mission is to provide necessary food and personal care items to members of the UT Dallas community while acting as a service-learning component prioritizing community over individualism. 
       </p>
-      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-thin">
+      <p class="max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-thin opacity-50">
 		Located in room MC 1.608, in the Eugene McDermott Library basement.
       </p>
-      <div class="grid grid-cols-3 gap-4 text-left">
+      <div class="grid grid-cols-4 gap-4 text-left">
         <div class="flex flex-col items-start">
-          <h3 class="text-2xl font-bold">5000+</h3>
-          <p>Volunteers</p>
+          <h3 class="text-2xl font-bold">200% increase</h3>
+          <p class="opacity-60">From Students Served From Fall 2020</p>
         </div>
         <div class="flex flex-col items-start">
-          <h3 class="text-2xl font-bold">100+</h3>
-          <p>Projects Completed</p>
+          <h3 class="text-2xl font-bold">1600/week</h3>
+          <p class="opacity-60">Items Distributed</p>
         </div>
         <div class="flex flex-col items-start">
-          <h3 class="text-2xl font-bold">1M+</h3>
-          <p>Lives Impacted</p>
+          <h3 class="text-2xl font-bold">1000/week</h3>
+          <p class="opacity-60">Items Received</p>
         </div>
+		<div class="flex flex-col items-start">
+			<h3 class="text-2xl font-bold">15% users</h3>
+			<p class="opacity-60">First-Time Users</p>
+		  </div>
       </div>
     </div>
     <div class="grid grid-cols-2 gap-16 items center">
@@ -75,7 +79,7 @@
 				<h2 class="text-3xl font-bold tracking-tighter">
 						Get Involved
 				</h2>
-			<p class="max-w-[600px] text-zinc-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400">
+			<p class="max-w-[600px] text-zinc-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-zinc-400 opacity-80">
 				Join our efforts and help us make a difference. Every hand counts in creating a better world.
 			</p>
 		</div>
