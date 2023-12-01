@@ -1,5 +1,13 @@
 <script>
 	  import { animateScroll } from 'svelte-scrollto-element';
+	  import InfoCard from '../routes/components/infoCard.svelte';
+
+	  let cardData1 = {
+		number: 1,
+		header: 'Card Header',
+		subtitle: 'Card Subtitle',
+		image: 'https://placehold.co/600x400', // Provide your image URL
+	  };
 </script>
 
 <div class ="mb-20">
@@ -86,5 +94,10 @@
 	</div>
 	</div>
 </section>
+
+
+
+<InfoCard {...cardData1}/>
+
 
 </main>
