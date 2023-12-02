@@ -35,8 +35,10 @@
             </ul>
         </div>
     </div>
+
     <div class="grid grid-cols-3 gap-6 lg:gap-12 items-start px-4 mx-auto py-6 flex-1 ">
-        <a href="/Recipe"><div class="rounded-lg border bg text-card-foreground shadow-sm" data-v0-t="card">
+        <a class="cursor-pointer" onclick="my_modal_1.showModal()">
+			<div class="rounded-lg border bg text-card-foreground shadow-sm" data-v0-t="card">
             <div class="p-6 bg-amber-100">
                 <img alt="Recipe Image" class="aspect-square object-cover border border-zinc-200 w-full rounded-lg overflow-hidden dark:border-zinc-800" height="600" src="/spahgetti.jpg" width="600">
                 <div class="space-y-2" style="text-color">
@@ -53,6 +55,54 @@
                 </div>
             </div>
         </div></a>
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <img alt="Recipe" class=" aspect-square object-cover border border-zinc-200 w-full rounded-lg overflow-hidden dark:border-zinc-800"  src="/spahgetti.jpg" width="300">
+	<div class="grid grid-cols-2">
+
+<div>
+    <h3 class="font-bold text-lg my-6">How to make Spaghetti</h3>
+	<div class="flex flex-col gap-4 w-52">
+	  <div class="skeleton h-4 w-28"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-28"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	</div>
+</div>
+
+<div>
+    <h3 class="font-bold text-lg my-6">Ingredients</h3>
+	<div class="flex flex-col gap-4 w-52">
+	  <div class="skeleton h-4 w-28"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-28"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	  <div class="skeleton h-4 w-full"></div>
+	</div>
+</div>
+
+<div>
+    <h3 class="font-bold text-lg my-6">Steps</h3>
+	<div class="flex flex-col gap-4 w-52">
+	  <div class="flex gap-4 items-center">
+		<div class="skeleton w-16 h-16 rounded-full shrink-0"></div>
+		<div class="flex flex-col gap-4">
+		  <div class="skeleton h-4 w-20"></div>
+		  <div class="skeleton h-4 w-28"></div>
+		</div>
+	  </div>
+	  <div class="skeleton h-32 w-full"></div>
+	</div>
+</div>
+	<div>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+  </div>
+</dialog>
         <div class="rounded-lg border bg text-card-foreground shadow-sm" data-v0-t="card">
             <div class="p-6 bg-amber-100">
                 <img alt="Recipe Image" class="aspect-square object-cover border border-zinc-200 w-full rounded-lg overflow-hidden dark:border-zinc-800" height="600" src="/chicken-alfredo-pasta.jpg" width="600">
